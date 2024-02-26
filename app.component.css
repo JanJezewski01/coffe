@@ -194,7 +194,7 @@ div {
 
 	width: 650px; 
 	height: auto; 
-	margin-right: 40px;
+	margin-right: auto;
 }
   
 .fifty {
@@ -221,7 +221,7 @@ div {
 	  
 	  #customers tr:hover {background-color: #ddd;}
 	  
-	  #customers th:hover {background-color: #d87b5f;}
+	  #customers th:hover {background-color: #ec4f44;}
 	  #customers th {
 		padding-top: 12px;
 		padding-bottom: 12px;
@@ -229,7 +229,61 @@ div {
 		text-align: left;
 		background-color: #878f8c;
 		color: white;
-	}
+	}		
 }
 
+.table1{
+	#customers {
+		font-family: Arial, Helvetica, sans-serif;
+		border-collapse: collapse;
+		width: 100%;
+	  }
+	  
+	  #customers td, #customers th {
+		border: 1px solid #ddd;
+		padding: 8px;
+		height: 230px;
+	  }
+	  
+	  #customers tr:nth-child(even){background-color: #979595;}
+	  
+	  #customers tr:hover {background-color: #ddd;}
+	  
+	  #customers th:hover {background-color: #33eb8f;}
+	  #customers th {
+		padding-top: 12px;
+		padding-bottom: 12px;
+		height: 230px;
+		text-align: left;
+		background-color: #585c5a;
+		color: white;
+	}		
+}
 
+.table2{
+	#customers {
+		font-family: Arial, Helvetica, sans-serif;
+		border-collapse: collapse;
+		width: 100%;
+	  }
+	  
+	  #customers td, #customers th {
+		border: 1px solid #ddd;
+		padding: 8px;
+		height: 230px;
+	  }
+	  
+	  #customers tr:nth-child(even){background-color: #f2f2f2;}
+	  
+	  #customers tr:hover {background-color: #ddd;}
+	  
+	  #customers th:hover {background-color: #39a8f1;}
+	  #customers th {
+		padding-top: 12px;
+		padding-bottom: 12px;
+		height: 230px;
+		text-align: left;
+		background-color: #878f8c;
+		color: white;
+	}		
+}
