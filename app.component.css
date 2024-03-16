@@ -170,6 +170,9 @@ div {
 	text-align: "Trirong", serif;
 	letter-spacing: 1px;
 	font-family: "Roboto", "Helvetica Neue", sans-serif;
+	text-shadow: #000000;
+	color: #fffefe;
+	text-shadow: 2px 2px 5px rgb(8, 8, 8);
 	
 
 }
